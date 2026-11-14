@@ -1,0 +1,16 @@
+Flask>=3.0,<4.0
+Flask-Cors>=4.0,<6.0
+Flask-JWT-Extended>=4.6,<5.0
+bcrypt>=4.1,<5.0
+Flask-SQLAlchemy>=3.1,<4.0
+Flask-Migrate>=4.0,<5.0
+PyMySQL>=1.1,<2.0
+cryptography>=42.0,<45.0
+certifi>=2024.2.2
+python-dotenv>=1.0,<2.0
+Werkzeug>=3.0,<4.0
+scikit-learn>=1.4,<2.0
+Pillow>=10.0,<13.0
+numpy>=1.26,<3.0
+requests>=2.31,<3.0
+gunicorn>=22.0,<24.0

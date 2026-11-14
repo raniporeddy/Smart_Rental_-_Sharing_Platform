@@ -1,0 +1,53 @@
+# Environments and secrets
+.env
+.env*.local
+.env.production
+.env.development
+*.env
+!*.env.example
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache & build
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+frontend/.env.development
+!frontend/.env.example
+
+# Uploads & local file storage
+uploads/*
+!uploads/.gitkeep
+backend/static/uploads/*
+!backend/static/uploads/.gitkeep
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
